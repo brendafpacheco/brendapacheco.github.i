@@ -1,0 +1,1042 @@
+body {
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+  font-size: 13px;
+  color: #595959;
+  padding: 0;
+}
+
+div.centraliza {
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+center.first-center {
+  background-color: #ec1c24;
+}
+
+#back-anuncio{
+  height: 8.7890625%;
+  width: 71.09375%;
+}
+
+.img-an {
+  cursor: pointer;
+  height: 90px;
+  width: 728px;
+}
+
+#topo {
+  background: #ec1c24;
+  height: 89px;
+  padding-top: 20px;
+}
+
+div.centraliza button {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 0px;
+}
+
+div.centraliza .logo{
+  cursor: pointer;
+  margin-left: -2px;
+  width: 290px;
+  height: 61px;
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+}
+
+.top-infos {
+  width: 653px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+.boxsearch {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  line-height: normal;
+}
+
+form {
+  margin: 0px;
+  padding: 0px;
+}
+
+.links-top {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.menu.home {
+  top: 50px;
+  z-index: 500;
+}
+
+.menu > li {
+  float: right;
+  margin-left: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  height: 40px;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.menu li a {
+  color: #ffffff;
+  cursor: pointer;
+  height: 100%;
+  display: block;
+}
+
+.menu li a:hover{
+  color: #FFB90F;
+}
+
+a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+.menu li h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu > li > div {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: -89px;
+  font-size: 13px;
+  z-index: 999;
+}
+
+/**/
+::-webkit-input-placeholder {
+  color: black;
+}
+
+.searchbt{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border: 0;
+  background: url(images/icon-search.png) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #3c3b38;
+  position: absolute;
+}
+
+input {
+  user-select: text;
+  cursor: auto;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+
+.links-top a {
+  cursor: pointer;
+  float: left;
+  display: block;
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  background: #edad17;
+  padding: 0 10px;
+  margin-left: 5px;
+  height: 34px;
+  line-height: 34px;
+}
+
+.links-top a.mobile {
+  background: url("images/icon-tablet.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #edad17;
+  width: 31px;
+  padding: 0;
+}
+
+.search-inputs {
+  background: white;
+  width: 400px;
+  height: 26.5px;
+  font-style: italic;
+  font-size: 12px;
+  padding-left: 15px;
+  border: 0;
+}
+
+.topics{
+  position: absolute;
+  right: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+.menu {
+  width: 800px;
+  position: absolute;
+  right: 0;
+}
+
+
+.topo-baixo {
+  background: #25739e;
+  padding: 15px 0;
+  position: relative;
+  z-index: 1;
+  height: 20px;
+}
+
+.topo-baixo ul.menu-baixo li {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  float: left;
+  cursor: pointer;
+  width: 179px;
+  height: 32px;
+  text-align: center;
+  padding-top: 18px;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+}
+
+.topo-baixo ul.menu-baixo {
+  margin-left: 15px;
+  color: #ffffff;
+  position: relative;
+  top: -15px;
+}
+
+ul.menu-baixo {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.titulo-cidade {
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+  margin-right: 44px;
+}
+
+.escolher-multiplex {
+  position: absolute;
+  right: 0;
+  width: 240px;
+  top: 11px;
+}
+
+.escolher-multiplex .escolher {
+  background: url(images/choicedown.png) no-repeat center center;
+  height: 30px;
+  cursor: pointer;
+}
+
+div.conteudo-interno {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px 0 65px;
+  position: relative;
+}
+
+.titulo-pagina {
+  font-size: 18px;
+  color: #58595b;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+}
+
+div.paginacao {
+  margin: 15px 0 20px;
+  font-size: 13px;
+  color: #a9aaac;
+}
+
+.lista-filmes .cinza{
+  background-color: #eaeaea;
+  width: 848px;
+  padding: 10px;
+  float: left;
+  cursor: auto;
+}
+
+.lista-filmes .nome {
+  width: 200px;
+  background: url("images/arrow-programacao.png") no-repeat center left;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.lista-filmes .nome h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.lista-filmes td {
+  height: 50px;
+}
+
+.lista-filmes .categoria-d {
+  width: 50px;
+}
+
+.lista-filmes .categoria {
+  width: 110px;
+  padding-left: 10px;
+}
+
+.local {
+  font-size: 13px;
+  font-weight: 700;
+  color: #58595b;
+  position: absolute;
+  left: 0px;
+  top: -30px;
+  text-transform: uppercase;
+  width: 500px;
+}
+
+.local span {
+  color: #939598;
+  font-weight: lighter; /*ou 400/500*/
+  text-transform: none;
+  padding-right: 3px;
+}
+
+ul.abas-prog li {
+  width: 175px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background: #939598;
+  margin-right: 2px;
+  float: left;
+  padding: 12px 0;
+  cursor: pointer;
+  font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+}
+
+.abas-prog li.prog-azul {
+  background: #25739e;
+}
+
+.topo-prog{
+  margin-top: 50px;
+  height: 42px;
+  position: relative;
+}
+
+td.categoria-d, td.categoria, td.sessoes {
+  cursor: context-menu;
+}
+
+ul.lista-filmes li{
+  display: table;
+}
+
+ul.lista-filmes li .cinza {
+  float: left;
+}
+
+.classificacao-12, .classificacao-14, .classificacao-16, .classificacao-livre, .comprar {
+  width: 64px;
+  height: 74px;
+  float: left;
+  margin-left: 2px;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+div.classificacao-12 {
+  background: url("images/classificacao-doze.png") no-repeat center center #e7c210;
+}
+
+div.classificacao-livre {
+  background: url("images/classificacao-livre.png") no-repeat center center #089f50;
+}
+
+div.classificacao-14 {
+  background: url("images/classificacao-quatorze.png") no-repeat center center #f79136;
+}
+
+div.classificacao-16 {
+  background: url("images/classificacao-dezesseis.png") no-repeat center center #de2b2e;
+}
+
+div.comprar {
+  background: url("images/ico-buy.png") no-repeat center center #eb1c1c;
+}
+
+.reset {
+  height: 2px;
+  clear: both;
+}
+
+.lista-filmes td.leg-dub {
+  width: 80px;
+  text-align: center;
+  height: 0;
+  padding: 0px 10px;
+}
+
+.lista-filmes td.salas {
+  height: 0px;
+  padding-left: 40px;
+  width: 160px;
+}
+
+td.sessoes td span, div.salas-especiais p span{
+  font-weight: 600;
+}
+
+div.salas-especiais {
+  width: 1000px;
+  height: 50px;
+  background-color: #777777;
+}
+
+div.salas-especiais p {
+  padding-top: 7px;
+  text-indent: 15px;
+  color: white;
+  font-size: 14px;
+}
+
+div.sub-tabela-central {
+  display: table;
+  margin-top: 60px;
+}
+
+div.direito-meia {
+  width: 500px;
+  float: left;
+}
+
+div.informativos {
+  float: right;
+  margin-left: 2px;
+}
+
+div.direito-meia strong {
+  font-size: 14px;
+}
+
+div.direito-meia strong.info-azul {
+  color: #0085c8;
+}
+
+div.direito-meia p, div.informativos p.bg-informativos {
+  width: 460px;
+  padding: 8px 0;
+  font-size: 13px;
+  font-weight: 700;
+  background: url("images/bg-btnregulamento.jpg") repeat;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+div.data {
+  width: 150px;
+  float: right;
+  position: relative;
+  left: -14%;
+  margin-top: 0px;
+}
+
+input.data-num{
+  font-weight: 700;
+  width: 32px;
+  background: #ffffff;
+  color: #595959;
+  padding: 13px 5px 5px;
+  background: transparent;
+  border: 0;
+}
+
+img.img-calendario {
+  float: left;
+  margin-left: 7px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+div.redes {
+  position: absolute;
+  top: 255px;
+  right: 0;
+  width: 55px;
+  background: #3c3b38;
+  padding: 11px 0;
+}
+
+div.redes img {
+  margin: 8px 21px;
+}
+
+
+div.fim {
+  background: #f4f4f4;
+  padding: 15px 0;
+  position: relative;
+  height: 180px;
+  margin-top: 40px;
+}
+
+div.rodape ul li.bloco {
+  float: left;
+}
+
+.fim .rodape ul li ul li {
+  height: 22px;
+  float: none;
+  width: auto;
+}
+
+.fim .rodape ul li {
+  width: 170px;
+  float: left;
+  font-size: 13px;
+}
+
+div.nome-rodape .titulo {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ec1c24;
+  border-bottom: 1px solid #ec1c24;
+  padding: 12px 0;
+  position: relative;
+  margin-top: 30px;
+}
+
+div.newsletter {
+  margin-bottom: 20px;
+}
+
+div.newsletter span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ec1c24;
+  position: relative;
+  top: -29px;
+  left: 700px;
+}
+
+div.rodape a:hover {
+  color: #EF4123;
+}
+form.formNews {
+  margin-left: 800px;
+  margin-top: -50px;
+}
+.newsletter input.input-news {
+  border: 1px solid #aaabad;
+  color: #808285;
+  font-size: 10px;
+  padding: 7px;
+  width: 120px;
+  margin-left: 5px;
+}
+
+.newsletter input.bt-news {
+  background: #EC1C24;
+  border: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 28px;
+  position: relative;
+  top: 2px;
+  width: 33px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width:1050px) {
+  div.vermelho-resp div.div-boxsearch-resp, div.arrow-resp {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:664px) {
+  ul.abas-prog-resp {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  ul.menu.home, .menu, .top-infos, div.links-top a, ul.menu-baixo li, ul.menu-baixo div {
+    display: none !important;
+  }
+
+  div.centraliza {
+    width: 896px;
+  }
+
+  div.centraliza div.logo button {
+    position: relative;
+    left: 250%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+  }
+
+  div.centraliza button div {
+    height: 0px;
+    border: 1.5px solid #fff;
+    width: 22px;
+    display: block;
+    position: relative;
+    background:#fff;
+  }
+
+  div.centraliza button div:nth-child(1) {
+    top: 0px;
+  }
+
+  div.centraliza button div:nth-child(2) {
+    top: 8px;
+  }
+
+  div.centraliza button div:nth-child(3) {
+    top: 16px;
+  }
+
+  div.vermelho-resp {
+    height: 60px;
+    padding: 20px;
+    background-color: #ec1c24;
+  }
+
+  div.div-boxsearch-resp {
+    display: table;
+  }
+
+  div.div-boxsearch-resp, div.div-boxsearch-resp form input.search-inputs-resp {
+    float: left;
+  }
+
+  div.vermelho-resp form {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  div.vermelho-resp form input.search-inputs-resp {
+    padding: 6.9px;
+    border: 0;
+  }
+
+  div.vermelho-resp .links-top-resp a {
+    display: absolute;
+    cursor: pointer;
+    float: left;
+    display: block;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    background: #edad17;
+    padding: 0 10px;
+    margin-left: 220px;
+    height: 32px;
+    line-height: 34px;
+    margin-top: -30px;
+  }
+
+  .arrow-resp {
+    cursor: pointer;
+    background: url("images/down-arrow.svg") no-repeat center center;
+    height: 20px;
+    width: 30px;
+    position: relative;
+    left: 800px;
+  }
+
+  div.redes {
+    top: 354px;
+  }
+
+  div.fim {
+    height: 170px;
+  }
+
+  div.newsletter {
+    margin-left: -200px;
+  }
+
+  div.fim div.centraliza {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  div.cinza {
+    width: 700px !important;
+  }
+
+  .lista-filmes .nome {
+    width: 150px !important;
+  }
+
+  div.salas-especiais, div.direito-meia, div.informativos {
+    width: 852.4px;
+  }
+
+  div.direito-meia {
+    float: none !important;
+  }
+
+  div.informativos {
+    float: none !important;
+    margin-left: 0 !important;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  center.first-center, td.categoria-d, td.categoria, td.sessoes, td.tecnologias {
+    display: none !important;
+  }
+
+  div.centraliza div.logo button {
+    position: absolute;
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+  }
+
+  div.centraliza {
+    width: 648px;
+  }
+
+  div.centraliza span.titulo-cidade {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 4px;
+  }
+
+  div.centraliza button div {
+    height: 0px;
+    border: 1.5px solid #fff;
+    width: 22px;
+    display: block;
+    position: relative;
+    background:#fff;
+  }
+
+  div.centraliza button div:nth-child(1) {
+    top: 0px;
+  }
+
+  div.centraliza button div:nth-child(2) {
+    top: 8px;
+  }
+
+  div.centraliza button div:nth-child(3) {
+    top: 16px;
+  }
+
+  .arrow-resp {
+    cursor: pointer;
+    background: url(images/down-arrow.svg) no-repeat center center;
+    height: 20px;
+    width: 30px;
+    position: relative;
+    left: 620px;
+  }
+
+  ul.lista-filmes {
+    margin-top: 40px;
+  }
+
+  div.cinza {
+    width: 400px !important;
+  }
+
+  .lista-filmes .nome {
+    width: 250px !important;
+  }
+
+  div.salas-especiais, div.direito-meia, div.informativos {
+    width: 552px;
+  }
+
+  div.conteudo-interno {
+    margin-left: 4px !important;
+  }
+
+  ul.abas-prog {
+    padding-top: 40px !important;
+  }
+
+  ul.abas-prog li {
+    width: 136.5px;
+  }
+
+  div.data {
+    position: absolute !important;
+    margin-top: -45px;
+    margin-left: 150px;
+  }
+
+  div.fim {
+    height: 270px;
+  }
+
+  div.newsletter {
+    margin-left: -330px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  ul.abas-prog {
+    display: none !important;
+  }
+
+  div.centraliza {
+    width: 512px;
+  }
+
+  div.centraliza div.logo button {
+    position: absolute;
+    left: 80%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+  }
+
+  div.centraliza button div {
+    height: 0px;
+    border: 1.5px solid #fff;
+    width: 22px;
+    display: block;
+    position: relative;
+    background:#fff;
+  }
+
+  div.centraliza button div:nth-child(1) {
+    top: 0px;
+  }
+
+  div.centraliza button div:nth-child(2) {
+    top: 8px;
+  }
+
+  div.centraliza button div:nth-child(3) {
+    top: 16px;
+  }
+
+  .arrow-resp {
+    cursor: pointer;
+    background: url(images/down-arrow.svg) no-repeat center center;
+    height: 20px;
+    width: 30px;
+    position: relative;
+    left: 412px;
+  }
+
+  ul.abas-prog-resp li{
+    display: inline-block;
+    width: 144px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background: #939598;
+    padding: 12px 0;
+    cursor: pointer;
+    font-family: Helvetica, Trebuchet MS, Arial, sans-serif;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  ul.abas-prog-resp li:nth-child(2) {
+    margin-top: 2px;
+  }
+
+  ul.abas-prog-resp li.prog-azul {
+    background:#25739e;
+  }
+
+  div.cinza {
+    width: 300px !important;
+  }
+
+  ul.lista-filmes {
+    margin-top: 80px;
+  }
+
+  div.conteudo-interno {
+    margin-left: 5px !important;
+    margin-top: 25px;
+  }
+
+  ul.abas-prog-resp {
+    padding-top: 36px !important;
+  }
+
+  div.data {
+    margin-top: -130px ;
+    margin-left: 150px;
+  }
+
+  div.salas-especiais, div.direito-meia, div.informativos {
+    width: 452px;
+  }
+  div.sub-tabela-central p, div.informativos p.bg-informativos {
+    width: 400px;
+  }
+
+  div.fim {
+    height: 300px;
+  }
+
+  div.newsletter {
+    margin-left: -466px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  div.redes {
+    top: 259px !important;
+    position: absolute !important;
+    width: 259px !important;
+  }
+  div.redes img {
+    margin: 5px 12px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.conteudo-interno {
+    width: 350px;
+  }
+  .lista-filmes .nome {
+    width: 1px !important;
+  }
+
+  div.cinza {
+    width: 100px !important;
+  }
+
+  ul.abas-prog-resp li {
+    width: 172px;
+  }
+
+  ul.lista-filmes {
+    margin-top: 165px;
+  }
+  div.data {
+    margin-top: -209px;
+    margin-left: 45px;
+  }
+
+  ul.abas-prog-resp li:nth-child(2), ul.abas-prog-resp li:nth-child(1) {
+    margin-top: 2px;
+  }
+
+  div.paginacao {
+    width: 260px;
+  }
+
+  div.local {
+    width: 260px;
+  }
+
+  div.centraliza {
+    width: 440px;
+  }
+
+  div.salas-especiais, div.direito-meia, div.informativos {
+    width: 250px;
+  }
+
+  div.sub-tabela-central p, div.informativos p.bg-informativos {
+    width: 250px;
+  }
+
+  div.fim {
+    height: 550px;
+  }
+
+  div.nome-rodape .titulo {
+    border-bottom: 1px solid #ec1c24;
+    padding-bottom: 40px;
+  }
+
+  div.newsletter {
+    margin-left: -700px;
+    margin-top: 2px;
+  }
+
+  .fim .rodape ul li.bloco {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  div.centraliza {
+    width: 340px;
+  }
+  div.centraliza div.logo button {
+    left: 60%;
+    margin-top: 50px;
+  }
+
+  div.vermelho-resp .links-top-resp a {
+    margin-left: 98px;
+    margin-top: 5px;
+    width: 116px;
+    padding: 0;
+  }
+  div.centraliza span.titulo-cidade {
+    width: 260px;
+  }
+
+  .arrow-resp {
+    left: 210px;
+  }
+}
